@@ -41,8 +41,8 @@ namespace LibUsbDotNet
         /// Use the default struct alignment for this platform.
         /// </summary>
         internal const int Pack = 0;
-
-        public const string LibUsbNativeLibrary = "libusb-1.0";
+        //TODO:TS
+        public const string LibUsbNativeLibrary = "libusb-1.0.dll";
 
         static NativeMethods()
         {
